@@ -1,1 +1,3 @@
-# oop_project
+Benke Dávid
+NK-U1GXAZ
+Gazdaságinformatika

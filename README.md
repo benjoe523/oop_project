@@ -1,3 +1,5 @@
-Benke Dávid
-NK-U1GXAZ
-Gazdaságinformatika
+Név: Benke Dávid
+
+Neptun kód: U1GXAZ
+
+Szak: Gazdaságinformatikus

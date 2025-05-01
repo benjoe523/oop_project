@@ -5,8 +5,8 @@ class Jarmu(ABC):
         self.rendszam = rendszam
         self.tipus = tipus
         self.napi_dij = napi_dij
-        self.foglalasok = []  # (datum, napok)
-        self.foglalasok = []  # (datum, napok)
+        self.foglalasok = []  
+        self.foglalasok = []  
 
     @abstractmethod
     def jarmu_adatok(self) -> str:
@@ -17,7 +17,7 @@ class Jarmu(ABC):
 
     @property
     def elerheto(self) -> bool:
-        # Döntés dinamikusan, hogy a jármű szabad-e a mai napon
+    
         from datetime import date
         today = date.today().toordinal()
         for foglalas in self.foglalasok:
